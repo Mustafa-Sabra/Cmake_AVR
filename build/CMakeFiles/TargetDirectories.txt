@@ -1,0 +1,5 @@
+F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/output.elf.dir
+F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/flash.dir
+F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/burn.dir
+F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/edit_cache.dir
+F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/rebuild_cache.dir

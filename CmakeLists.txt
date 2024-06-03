@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 3.29)
+
+
+
+
+
+set(src_files   APP/main.c
+                HAL/LED_Handler_V1/LED_prog.c
+                MCAL/DIO_V2/DIO_prg.c)
+
+ set(EXE_Name output)
+
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_C_COMPILER avr-gcc CACHE STRING "C compiler" FORCE)
+set(CMAKE_OBJCOPY avr-objcopy CACHE STRING "avr-objcopy" FORCE)
+set(CMAKE_C_FLAG "-mmcu=atmega32 -01 -DF_CPU=8000000UL")
+
+project(avr_cmake)
+
+set(src_files   APP/main.c
+                HAL/LED_Handler_V1/LED_prog.c
+                MCAL/DIO_V2/DIO_prg.c
+    )
+
+set(includes    HAL/LED_Handler_V1/
+                MCAL/DIO_V2/
+                LIB/)
+        
+
+add_executable(${EXE_Name}.elf ${src_files})
+
+target_include_directories(${EXE_Name}.elf PUBLIC  ${includes})
+
+add_custom_target(flash ALL
+                    DEPENDS ${EXE_Name}.elf
+                    COMMAND avr-objcopy -j .text -j .data -O ihex ${EXE_Name}.elf ${EXE_Name}.hex 
+)
+
+add_custom_target(burn 
+                    DEPENDS flash
+                    COMMAND avrdude.exe -c usbasp -p m32 -B 0.5 -U flash:w:"${EXE_Name}.hex":a 
+)

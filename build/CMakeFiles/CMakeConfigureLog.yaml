@@ -1,0 +1,472 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/bin/avr-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/3.29.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/bin/avr-c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/3.29.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots"
+      binary: "F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots'
+        
+        Run Build Command(s): F:/Programs/CMake/cmake-3.29.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 "F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_22587/fast
+        F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_22587.dir\\build.make CMakeFiles/cmTC_22587.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots'
+        Building C object CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj
+        E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\avr-gcc.exe   -v -o CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj -c F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        Target: avr
+        Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+        Thread model: single
+        gcc version 4.3.3 (WinAVR 20100110) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj' '-c'
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/cc1.exe -quiet -v -iprefix e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/ F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\musta\\AppData\\Local\\Temp/cc3Sjhhe.s
+        ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include
+         e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include-fixed
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include
+        End of search list.
+        GNU C (WinAVR 20100110) version 4.3.3 (avr)
+        	compiled by GNU C version 3.4.5 (mingw-vista special r3), GMP version 4.2.3, MPFR version 2.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 61d68a374065d489330774d2533cbbdf
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj' '-c'
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/as.exe -o CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj C:\\Users\\musta\\AppData\\Local\\Temp/cc3Sjhhe.s
+        COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+        LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj' '-c'
+        Linking C executable cmTC_22587
+        F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_22587.dir\\link.txt --verbose=1
+        E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\avr-gcc.exe  -v CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj -o cmTC_22587
+        Using built-in specs.
+        Target: avr
+        Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+        Thread model: single
+        gcc version 4.3.3 (WinAVR 20100110) 
+        COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+        LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22587'
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_22587 e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3 -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc
+        mingw32-make.exe[1]: Leaving directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include-fixed]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include]
+        end of search list found
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include-fixed] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include-fixed]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include-fixed]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/include]
+        implicit include dirs: [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include-fixed;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots']
+        ignore line: []
+        ignore line: [Run Build Command(s): F:/Programs/CMake/cmake-3.29.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 "F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_22587/fast]
+        ignore line: [F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_22587.dir\\build.make CMakeFiles/cmTC_22587.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-hcoots']
+        ignore line: [Building C object CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\avr-gcc.exe   -v -o CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj -c F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c c++ objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse']
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 4.3.3 (WinAVR 20100110) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj' '-c']
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/cc1.exe -quiet -v -iprefix e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/ F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\musta\\AppData\\Local\\Temp/cc3Sjhhe.s]
+        ignore line: [ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include]
+        ignore line: [ e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include-fixed]
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include]
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed]
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (WinAVR 20100110) version 4.3.3 (avr)]
+        ignore line: [	compiled by GNU C version 3.4.5 (mingw-vista special r3)  GMP version 4.2.3  MPFR version 2.4.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 61d68a374065d489330774d2533cbbdf]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj' '-c']
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/as.exe -o CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj C:\\Users\\musta\\AppData\\Local\\Temp/cc3Sjhhe.s]
+        ignore line: [COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_22587.dir\\CMakeCCompilerABI.c.obj' '-c']
+        ignore line: [Linking C executable cmTC_22587]
+        ignore line: [F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_22587.dir\\link.txt --verbose=1]
+        ignore line: [E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\avr-gcc.exe  -v CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj -o cmTC_22587]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c c++ objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse']
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 4.3.3 (WinAVR 20100110) ]
+        ignore line: [COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_22587']
+        link line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_22587 e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3 -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc]
+          arg [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [avr2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_22587] ==> ignore
+          arg [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o] ==> obj [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o]
+          arg [-Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3] ==> dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3]
+          arg [-Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc] ==> dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc]
+          arg [-Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib]
+          arg [CMakeFiles/cmTC_22587.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+        linker tool for 'C': e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/avr/bin/ld.exe
+        collapse obj [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib/crts8515.o]
+        collapse library dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3]
+        collapse library dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc]
+        collapse library dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib]
+        implicit libs: [gcc;c;gcc]
+        implicit objs: [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib/crts8515.o]
+        implicit dirs: [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Running the C compiler's linker: "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/avr/bin/ld.exe" "-v"
+      GNU ld (WinAVR 20100110) 2.19
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki"
+      binary: "F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki'
+        
+        Run Build Command(s): F:/Programs/CMake/cmake-3.29.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 "F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_318f6/fast
+        F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_318f6.dir\\build.make CMakeFiles/cmTC_318f6.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki'
+        Building CXX object CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj
+        E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\AVR-C_~1.EXE   -v -o CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj -c F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        Target: avr
+        Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+        Thread model: single
+        gcc version 4.3.3 (WinAVR 20100110) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c'
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/cc1plus.exe -quiet -v -iprefix e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/ F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj -version -fno-rtti -fno-enforce-eh-specs -fno-exceptions -o C:\\Users\\musta\\AppData\\Local\\Temp/ccwRxKhx.s
+        ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include/c++/4.3.3"
+        ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include/c++/4.3.3/avr"
+        ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include/c++/4.3.3/backward"
+        ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include
+         e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include-fixed
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include
+        End of search list.
+        GNU C++ (WinAVR 20100110) version 4.3.3 (avr)
+        	compiled by GNU C version 3.4.5 (mingw-vista special r3), GMP version 4.2.3, MPFR version 2.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2cec6531345f76fb5de96e7b76602d14
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c'
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/as.exe -o CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\musta\\AppData\\Local\\Temp/ccwRxKhx.s
+        COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+        LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c'
+        Linking CXX executable cmTC_318f6
+        F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_318f6.dir\\link.txt --verbose=1
+        E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\AVR-C_~1.EXE  -v CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_318f6
+        Using built-in specs.
+        Target: avr
+        Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c,c++,objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse'
+        Thread model: single
+        gcc version 4.3.3 (WinAVR 20100110) 
+        COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/
+        LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/;e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_318f6'
+         e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_318f6 e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3 -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc
+        mingw32-make.exe[1]: Leaving directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include-fixed]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed]
+          add: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include]
+        end of search list found
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/include-fixed] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include-fixed]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include-fixed]
+        collapse include dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/include]
+        implicit include dirs: [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3/include-fixed;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki']
+        ignore line: []
+        ignore line: [Run Build Command(s): F:/Programs/CMake/cmake-3.29.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 "F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_318f6/fast]
+        ignore line: [F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_318f6.dir\\build.make CMakeFiles/cmTC_318f6.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-8et2ki']
+        ignore line: [Building CXX object CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\AVR-C_~1.EXE   -v -o CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj -c F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c c++ objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse']
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 4.3.3 (WinAVR 20100110) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c']
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/cc1plus.exe -quiet -v -iprefix e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/ F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj -version -fno-rtti -fno-enforce-eh-specs -fno-exceptions -o C:\\Users\\musta\\AppData\\Local\\Temp/ccwRxKhx.s]
+        ignore line: [ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include/c++/4.3.3"]
+        ignore line: [ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include/c++/4.3.3/avr"]
+        ignore line: [ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include/c++/4.3.3/backward"]
+        ignore line: [ignoring nonexistent directory "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include]
+        ignore line: [ e:\\private\\courses\\embedded\\imtdip~1\\imttoo~1\\sdk\\imt_sd~1\\winavr\\bin\\../lib/gcc/avr/4.3.3/include-fixed]
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include]
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../lib/gcc/avr/4.3.3/include-fixed]
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/lib/gcc/../../avr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (WinAVR 20100110) version 4.3.3 (avr)]
+        ignore line: [	compiled by GNU C version 3.4.5 (mingw-vista special r3)  GMP version 4.2.3  MPFR version 2.4.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2cec6531345f76fb5de96e7b76602d14]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c']
+        ignore line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/as.exe -o CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\musta\\AppData\\Local\\Temp/ccwRxKhx.s]
+        ignore line: [COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_318f6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c']
+        ignore line: [Linking CXX executable cmTC_318f6]
+        ignore line: [F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_318f6.dir\\link.txt --verbose=1]
+        ignore line: [E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\AVR-C_~1.EXE  -v CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_318f6]
+        ignore line: [Using built-in specs.]
+        ignore line: [Target: avr]
+        ignore line: [Configured with: ../gcc-4.3.3/configure --enable-win32-registry=WinAVR-20100110 --with-gmp=/usr/local --with-mpfr=/usr/local --prefix=/c/WinAVR --target=avr --enable-languages=c c++ objc --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-pkgversion='WinAVR 20100110' --with-bugurl='URL:http://sourceforge.net/tracker/?atid=520074&group_id=68108&func=browse']
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 4.3.3 (WinAVR 20100110) ]
+        ignore line: [COMPILER_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../libexec/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/]
+        ignore line: [LIBRARY_PATH=e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/]
+        ignore line: [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_318f6']
+        link line: [ e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe -m avr2 -o cmTC_318f6 e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3 -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc -Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc]
+          arg [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/bin/ld.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [avr2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_318f6] ==> ignore
+          arg [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o] ==> obj [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o]
+          arg [-Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3] ==> dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3]
+          arg [-Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc] ==> dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc]
+          arg [-Le:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib]
+          arg [CMakeFiles/cmTC_318f6.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+        linker tool for 'CXX': e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/avr/bin/ld.exe
+        collapse obj [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/crts8515.o] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib/crts8515.o]
+        collapse library dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3]
+        collapse library dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc]
+        collapse library dir [e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib] ==> [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib]
+        implicit libs: [gcc;m;gcc;c;gcc]
+        implicit objs: [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib/crts8515.o]
+        implicit dirs: [E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc/avr/4.3.3;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/lib/gcc;E:/Private/Courses/Embedded/IMT Diploma/IMT Tools/SDK/IMT_SDK_Win_64/WinAVR/avr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Running the CXX compiler's linker: "e:/private/courses/embedded/imtdip~1/imttoo~1/sdk/imt_sd~1/winavr/avr/bin/ld.exe" "-v"
+      GNU ld (WinAVR 20100110) 2.19
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:137 (_record_compiler_features_cxx)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "F:/Programs/CMake/cmake-3.29.3-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-54l0ej"
+      binary: "F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-54l0ej"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-54l0ej'
+        
+        Run Build Command(s): F:/Programs/CMake/cmake-3.29.3-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 "F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_682ed/fast
+        F:/Educational/NTI C Course/Tools/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_682ed.dir\\build.make CMakeFiles/cmTC_682ed.dir/build
+        mingw32-make.exe[1]: Entering directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-54l0ej'
+        Building CXX object CMakeFiles/cmTC_682ed.dir/feature_tests.cxx.obj
+        E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\AVR-C_~1.EXE   -std=c++98 -o CMakeFiles\\cmTC_682ed.dir\\feature_tests.cxx.obj -c F:\\Educational\\CMake\\cmake_workspace\\Avr_cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-54l0ej\\feature_tests.cxx
+        Linking CXX executable cmTC_682ed
+        F:\\Programs\\CMake\\cmake-3.29.3-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_682ed.dir\\link.txt --verbose=1
+        E:\\Private\\Courses\\Embedded\\IMTDIP~1\\IMTTOO~1\\SDK\\IMT_SD~1\\WinAVR\\bin\\AVR-C_~1.EXE CMakeFiles/cmTC_682ed.dir/feature_tests.cxx.obj -o cmTC_682ed
+        mingw32-make.exe[1]: Leaving directory 'F:/Educational/CMake/cmake_workspace/Avr_cmake/build/CMakeFiles/CMakeScratch/TryCompile-54l0ej'
+        
+      exitCode: 0
+...

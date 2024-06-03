@@ -1,0 +1,1 @@
+E:\Private\Courses\Embedded\IMTDIP~1\IMTTOO~1\SDK\IMT_SD~1\WinAVR\bin\avr-gcc.exe CMakeFiles/output.elf.dir/APP/main.c.obj CMakeFiles/output.elf.dir/HAL/LED_Handler_V1/LED_prog.c.obj CMakeFiles/output.elf.dir/MCAL/DIO_V2/DIO_prg.c.obj -o output.elf
