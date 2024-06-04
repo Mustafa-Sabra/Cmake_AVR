@@ -9,7 +9,7 @@
 #define HAL_LED_HANDLER_V1_LED_CFG_H_
 
 #define LED_1_PORT 				DIO_PORT_A
-#define LED_1_PIN 				DIO_PIN_5
+#define LED_1_PIN 				DIO_PIN_7
 
 #define LED_2_PORT 				DIO_PORT_A
 #define LED_2_PIN 				DIO_PIN_1

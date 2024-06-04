@@ -31,12 +31,13 @@ add_executable(${EXE_Name}.elf ${src_files})
 
 target_include_directories(${EXE_Name}.elf PUBLIC  ${includes})
 
+
 add_custom_target(flash ALL
-                    DEPENDS ${EXE_Name}.elf
-                    COMMAND avr-objcopy -j .text -j .data -O ihex ${EXE_Name}.elf ${EXE_Name}.hex 
+DEPENDS ${EXE_Name}.elf
+COMMAND avr-objcopy -j .text -j .data -O ihex ${EXE_Name}.elf ${EXE_Name}.hex 
 )
 
 add_custom_target(burn 
-                    DEPENDS flash
-                    COMMAND avrdude.exe -c usbasp -p m32 -B 0.5 -U flash:w:"${EXE_Name}.hex":a 
+DEPENDS flash
+COMMAND avrdude.exe -c usbasp -p m32 -B 0.5 -U flash:w:"${EXE_Name}.hex":a 
 )
