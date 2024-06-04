@@ -4,6 +4,8 @@
 In this project we're going to use Cmake to build our project and burn the genetrated executble on the atmega32 microcontroller. The entire development and build process is done without the use of any Integrated Development Environment (IDE), emphasizing a pure command-line approach. Additionally, the CMake build system was created from scratch for this project. CMake is a powerful build system generator that helps manage the build process in a compiler-independent manner, making it easier to handle complex build configurations.
 
 ### Dependencies
+**Git**: You need to install Git in your machine, use the official website to install it.
+
 **CMake**: Depending on whether you choose to use version 3.29 or higher, ensure that CMake is installed on your host machine. If not already installed, you can download and install CMake from the official website.
 
 **Make**: Make sure that the make utility is installed on your host machine. If not, you can install it using your package manager.
@@ -11,6 +13,10 @@ In this project we're going to use Cmake to build our project and burn the genet
 **AVR-G++ Compiler**: Install the AVR-G++ compiler on your host machine. After installation, ensure that the path to the compiler is added to the environment variables of your host machine.
 
 ### Installation
+**1.** First you need to clone the repo into your local machine, using the following command:
+```bash
+    git clone https://github.com/Mustafa-Sabra/Cmake_AVR.git
+``` 
 **1.** In the project directory, remove any existing build files.
 using the following commands:
 ```bash
