@@ -43,6 +43,7 @@ using the following commands:
 
 2. **Observing the Led**: As you press the button, observe the led toggling in response. This allows you to visually see the effect of pressing the button on the led.
 
-## 🔗 Links
-     You can access the application code documentaion through the following link:
-     https://mustafa-sabra.github.io/Cmake_AVR/
+
+#### 🔗 You can access the application code documentaion through the following link:
+
+https://mustafa-sabra.github.io/Cmake_AVR/
