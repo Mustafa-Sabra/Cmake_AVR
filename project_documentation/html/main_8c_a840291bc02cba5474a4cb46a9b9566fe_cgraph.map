@@ -1,9 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node1" title="This is the entry point of the project." alt="" coords="5,132,60,159"/>
-<area shape="rect" id="node2" href="$DIO__prg_8c.html#a4cfb6fe931cd94b73e8b99cf75dbfe83" title="Use this function to get the pin value." alt="" coords="114,5,245,32"/>
-<area shape="rect" id="node3" href="$DIO__prg_8c.html#a18935828b885564f7b106e979b5897d5" title="Use this function to set the pin direction." alt="" coords="115,56,243,83"/>
-<area shape="rect" id="node4" href="$DIO__prg_8c.html#aa45c546cce07cedadd431b4942b9feda" title="Use this function to set the pin value." alt="" coords="115,107,244,133"/>
-<area shape="rect" id="node5" href="$LED__prog_8c.html#a0b01310e3cf487db2358b11e02a63b6d" title="This function used to initialize the LEDs." alt="" coords="132,157,227,184"/>
-<area shape="rect" id="node6" href="$LED__prog_8c.html#a101dc6427cec51a863ef5299cb0966be" title="This function used to turn off the led." alt="" coords="108,208,251,235"/>
-<area shape="rect" id="node7" href="$LED__prog_8c.html#a70aaa85044e19c62365d89fb2e897c47" title="This function used to turn on the led." alt="" coords="108,259,251,285"/>
-</map>

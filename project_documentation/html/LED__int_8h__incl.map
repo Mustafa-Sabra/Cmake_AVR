@@ -1,9 +1,0 @@
-<map id="HAL/LED_Handler_V1/LED_int.h" name="HAL/LED_Handler_V1/LED_int.h">
-<area shape="rect" id="node1" title=" " alt="" coords="107,5,266,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="15,95,119,121"/>
-<area shape="rect" id="node3" href="$DIO__init_8h.html" title=" " alt="" coords="143,95,230,121"/>
-<area shape="rect" id="node7" href="$LED__cfg_8h.html" title=" " alt="" coords="254,95,341,121"/>
-<area shape="rect" id="node4" href="$STD__TYPES_8h.html" title=" " alt="" coords="5,169,112,196"/>
-<area shape="rect" id="node5" href="$BIT__MATH_8h.html" title=" " alt="" coords="137,169,237,196"/>
-<area shape="rect" id="node6" href="$DIO__reg_8h.html" title=" " alt="" coords="261,169,347,196"/>
-</map>
