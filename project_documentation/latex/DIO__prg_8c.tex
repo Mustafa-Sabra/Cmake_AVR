@@ -1,0 +1,163 @@
+\hypertarget{DIO__prg_8c}{}\doxysection{MCAL/\+DIO\+\_\+\+V2/\+DIO\+\_\+prg.c File Reference}
+\label{DIO__prg_8c}\index{MCAL/DIO\_V2/DIO\_prg.c@{MCAL/DIO\_V2/DIO\_prg.c}}
+{\ttfamily \#include \char`\"{}DIO\+\_\+init.\+h\char`\"{}}\newline
+Include dependency graph for DIO\+\_\+prg.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{DIO__prg_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+u8 \mbox{\hyperlink{DIO__prg_8c_a4aa97b0ae7f5c4a1386b8ba2ed63d6ff}{DIO\+\_\+u8set\+Port\+Dir}} (u8 Copy\+\_\+u8port, u8 Copy\+\_\+u8dir)
+\begin{DoxyCompactList}\small\item\em Use this function to set the port direction. \end{DoxyCompactList}\item 
+u8 \mbox{\hyperlink{DIO__prg_8c_a9df016f39e43ad6f311660270d663ac4}{DIO\+\_\+u8set\+Port\+Val}} (u8 Copy\+\_\+u8port, u8 Copy\+\_\+u8val)
+\begin{DoxyCompactList}\small\item\em Use this function to set the port value. \end{DoxyCompactList}\item 
+u8 \mbox{\hyperlink{DIO__prg_8c_a720a3248772455691c8fee57038aa2d7}{DIO\+\_\+u8get\+Port\+Val}} (u8 Copy\+\_\+u8port, u8 $\ast$Copy\+\_\+u8value\+Ptr)
+\begin{DoxyCompactList}\small\item\em Use this function to get the port value. \end{DoxyCompactList}\item 
+u8 \mbox{\hyperlink{DIO__prg_8c_a18935828b885564f7b106e979b5897d5}{DIO\+\_\+u8set\+Pin\+Dir}} (u8 Copy\+\_\+u8port, u8 Copy\+\_\+u8pin, u8 Copy\+\_\+u8dir)
+\begin{DoxyCompactList}\small\item\em Use this function to set the pin direction. \end{DoxyCompactList}\item 
+u8 \mbox{\hyperlink{DIO__prg_8c_aa45c546cce07cedadd431b4942b9feda}{DIO\+\_\+u8set\+Pin\+Val}} (u8 Copy\+\_\+u8port, u8 Copy\+\_\+u8pin, u8 Copy\+\_\+u8val)
+\begin{DoxyCompactList}\small\item\em Use this function to set the pin value. \end{DoxyCompactList}\item 
+u8 \mbox{\hyperlink{DIO__prg_8c_a4cfb6fe931cd94b73e8b99cf75dbfe83}{DIO\+\_\+u8get\+Pin\+Val}} (u8 Copy\+\_\+u8port, u8 Copy\+\_\+u8pin, u8 $\ast$Copy\+\_\+u8value\+Ptr)
+\begin{DoxyCompactList}\small\item\em Use this function to get the pin value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Mustafa Sabra 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2024-\/06-\/04
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright Mustafa\+\_\+\+Sabra(c) 2024 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{DIO__prg_8c_a4cfb6fe931cd94b73e8b99cf75dbfe83}\label{DIO__prg_8c_a4cfb6fe931cd94b73e8b99cf75dbfe83}} 
+\index{DIO\_prg.c@{DIO\_prg.c}!DIO\_u8getPinVal@{DIO\_u8getPinVal}}
+\index{DIO\_u8getPinVal@{DIO\_u8getPinVal}!DIO\_prg.c@{DIO\_prg.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_u8getPinVal()}{DIO\_u8getPinVal()}}
+{\footnotesize\ttfamily u8 DIO\+\_\+u8get\+Pin\+Val (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8port,  }\item[{u8}]{Copy\+\_\+u8pin,  }\item[{u8 $\ast$}]{Copy\+\_\+u8value\+Ptr }\end{DoxyParamCaption})}
+
+
+
+Use this function to get the pin value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+u8port} & \\
+\hline
+{\em Copy\+\_\+u8dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+u8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{DIO__prg_8c_a720a3248772455691c8fee57038aa2d7}\label{DIO__prg_8c_a720a3248772455691c8fee57038aa2d7}} 
+\index{DIO\_prg.c@{DIO\_prg.c}!DIO\_u8getPortVal@{DIO\_u8getPortVal}}
+\index{DIO\_u8getPortVal@{DIO\_u8getPortVal}!DIO\_prg.c@{DIO\_prg.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_u8getPortVal()}{DIO\_u8getPortVal()}}
+{\footnotesize\ttfamily u8 DIO\+\_\+u8get\+Port\+Val (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8port,  }\item[{u8 $\ast$}]{Copy\+\_\+u8value\+Ptr }\end{DoxyParamCaption})}
+
+
+
+Use this function to get the port value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+u8port} & \\
+\hline
+{\em Copy\+\_\+u8dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+u8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{DIO__prg_8c_a18935828b885564f7b106e979b5897d5}\label{DIO__prg_8c_a18935828b885564f7b106e979b5897d5}} 
+\index{DIO\_prg.c@{DIO\_prg.c}!DIO\_u8setPinDir@{DIO\_u8setPinDir}}
+\index{DIO\_u8setPinDir@{DIO\_u8setPinDir}!DIO\_prg.c@{DIO\_prg.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_u8setPinDir()}{DIO\_u8setPinDir()}}
+{\footnotesize\ttfamily u8 DIO\+\_\+u8set\+Pin\+Dir (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8port,  }\item[{u8}]{Copy\+\_\+u8pin,  }\item[{u8}]{Copy\+\_\+u8dir }\end{DoxyParamCaption})}
+
+
+
+Use this function to set the pin direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+u8port} & \\
+\hline
+{\em Copy\+\_\+u8dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+u8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{DIO__prg_8c_aa45c546cce07cedadd431b4942b9feda}\label{DIO__prg_8c_aa45c546cce07cedadd431b4942b9feda}} 
+\index{DIO\_prg.c@{DIO\_prg.c}!DIO\_u8setPinVal@{DIO\_u8setPinVal}}
+\index{DIO\_u8setPinVal@{DIO\_u8setPinVal}!DIO\_prg.c@{DIO\_prg.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_u8setPinVal()}{DIO\_u8setPinVal()}}
+{\footnotesize\ttfamily u8 DIO\+\_\+u8set\+Pin\+Val (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8port,  }\item[{u8}]{Copy\+\_\+u8pin,  }\item[{u8}]{Copy\+\_\+u8val }\end{DoxyParamCaption})}
+
+
+
+Use this function to set the pin value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+u8port} & \\
+\hline
+{\em Copy\+\_\+u8dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+u8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{DIO__prg_8c_a4aa97b0ae7f5c4a1386b8ba2ed63d6ff}\label{DIO__prg_8c_a4aa97b0ae7f5c4a1386b8ba2ed63d6ff}} 
+\index{DIO\_prg.c@{DIO\_prg.c}!DIO\_u8setPortDir@{DIO\_u8setPortDir}}
+\index{DIO\_u8setPortDir@{DIO\_u8setPortDir}!DIO\_prg.c@{DIO\_prg.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_u8setPortDir()}{DIO\_u8setPortDir()}}
+{\footnotesize\ttfamily u8 DIO\+\_\+u8set\+Port\+Dir (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8port,  }\item[{u8}]{Copy\+\_\+u8dir }\end{DoxyParamCaption})}
+
+
+
+Use this function to set the port direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+u8port} & \\
+\hline
+{\em Copy\+\_\+u8dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+u8 
+\end{DoxyReturn}
+\mbox{\Hypertarget{DIO__prg_8c_a9df016f39e43ad6f311660270d663ac4}\label{DIO__prg_8c_a9df016f39e43ad6f311660270d663ac4}} 
+\index{DIO\_prg.c@{DIO\_prg.c}!DIO\_u8setPortVal@{DIO\_u8setPortVal}}
+\index{DIO\_u8setPortVal@{DIO\_u8setPortVal}!DIO\_prg.c@{DIO\_prg.c}}
+\doxysubsubsection{\texorpdfstring{DIO\_u8setPortVal()}{DIO\_u8setPortVal()}}
+{\footnotesize\ttfamily u8 DIO\+\_\+u8set\+Port\+Val (\begin{DoxyParamCaption}\item[{u8}]{Copy\+\_\+u8port,  }\item[{u8}]{Copy\+\_\+u8val }\end{DoxyParamCaption})}
+
+
+
+Use this function to set the port value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+u8port} & \\
+\hline
+{\em Copy\+\_\+u8dir} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+u8 
+\end{DoxyReturn}
