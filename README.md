@@ -42,3 +42,7 @@ using the following commands:
 1. **Button Control**: After burning the code onto the Atmega32 microcontroller, connect the button to port A, pin 2, and the LED to port A, pin 7. Use the button to toggle the led. Pressing the button will toggle the led between on and off states.
 
 2. **Observing the Led**: As you press the button, observe the led toggling in response. This allows you to visually see the effect of pressing the button on the led.
+
+## 🔗 Links
+     You can access the application code documentaion through the following link:
+     https://mustafa-sabra.github.io/Cmake_AVR/
